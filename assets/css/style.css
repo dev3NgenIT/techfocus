@@ -191,7 +191,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 a:hover {
-  color: var(--main-color);
+  color: var(--sub-color);
   transition: all 0.5s;
 }
 p{
