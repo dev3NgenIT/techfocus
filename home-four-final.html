@@ -13,8 +13,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/global.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Ubuntu:wght@400;500&display=swap"
       rel="stylesheet"
@@ -22,6 +20,8 @@
     <!-- Aos Scroll Animation Start-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- *********************************CSS End*********************************** -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
   </head>
   <body>
     <!-- HEADER-BEGIN -->
@@ -37,138 +37,168 @@
           style="background-color: var(--sub-main-color)"
         >
           <div
-            class="col-lg-7"
+            class="col-lg-8"
             style="
               background-color: var(--sub-color);
               clip-path: polygon(0 0, 95% 0%, 100% 102%, 0% 100%);
             "
           ></div>
-          <div class="col-lg-5" style="background-color: var(--sub-main-color)">
-            <div class="d-flex justify-content-end align-items-center p-1">
-              <div class="dropdown pb-1 me-3">
-                <button
-                  class="dropdown-toggle me-3"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  data-aos="fade-left"
-                >
-                  English
-                </button>
-                <ul
-                  class="dropdown-menu extra-dropdown"
-                  aria-labelledby="dropdownMenuButton1"
-                >
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">English</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">France</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">Spanish</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">German</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">Russian</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="popover__wrapper me-5">
-                <a href="#">
-                  <h2 class="popover__title mb-1" data-aos="fade-left">
-                    <span>
-                      <i class="fa-solid fa-star-of-life"></i>
-                      <span class="p-0 m-0" style="color: var(--main-color)"
-                        >MY</span
-                      >
-                      Direct Industry
-                    </span>
-                  </h2>
-                </a>
-                <div class="popover__content text-start">
-                  <button class="btn signin mb-2">Connect</button>
-                  <div class="text-muted">
-                    First time here?
-                    <a href="" class="main-color">Inscrivez-vous</a>
-                  </div>
-                  <hr class="text-muted" />
-                  <ul class="account p-0 text-muted text-start">
-                    <li>
-                      <i class="fa fa-user m-2"></i>
-                      <a href="#" class="">My Profile</a>
-                    </li>
-                    <li>
-                      <i class="fa fa-envelope m-2"></i>
-                      <a href="#" class="">My Subscriptions</a>
-                    </li>
-                    <li>
-                      <i class="fa fa-star m-2"></i>
-                      <a href="#" class="">My Favorites</a>
-                    </li>
-                    <li>
-                      <i class="fa fa-list m-2"></i>
-                      <a href="#" class="">My Requests</a>
-                    </li>
-                  </ul>
-                  <hr class="text-muted" />
-                  <ul
-                    class="account p-0 text-muted text-start"
-                    style="font-size: 7px"
+          <div class="col-lg-4" style="background-color: var(--sub-main-color)">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div
+                    class="d-flex justify-content-end align-items-center p-1"
                   >
-                    <li>
-                      Sign in to your manufacturer account
-                      <a target="_blank" class="main-color"
-                        >Manufacturer account</a
+                    <div class="dropdown pb-1 me-3">
+                      <button
+                        class="dropdown-toggle me-3"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-aos="fade-left"
                       >
-                    </li>
-                    <li>
-                      Sign in to your distributor account
-                      <a target="_blank" class="main-color"
-                        >Distributor account</a
+                        English
+                      </button>
+                      <ul
+                        class="dropdown-menu extra-dropdown"
+                        aria-labelledby="dropdownMenuButton1"
                       >
-                    </li>
-                  </ul>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >English</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >France</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >Spanish</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >German</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >Russian</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="popover__wrapper me-5">
+                      <a href="#">
+                        <h2 class="popover__title mb-1" data-aos="fade-left">
+                          <span>
+                            <i class="fa-solid fa-star-of-life"></i>
+                            <span
+                              class="p-0 m-0"
+                              style="color: var(--main-color)"
+                              >My</span
+                            >
+                            Techfocus
+                          </span>
+                        </h2>
+                      </a>
+                      <div class="popover__content text-start">
+                        <button class="btn signin mb-2">Connect</button>
+                        <div class="text-muted">
+                          First time here?
+                          <a href="" class="main-color">Inscrivez-vous</a>
+                        </div>
+                        <hr class="text-muted" />
+                        <ul class="account p-0 text-muted text-start">
+                          <li>
+                            <i class="fa fa-user m-2"></i>
+                            <a href="#" class="">My Profile</a>
+                          </li>
+                          <li>
+                            <i class="fa fa-envelope m-2"></i>
+                            <a href="#" class="">My Subscriptions</a>
+                          </li>
+                          <li>
+                            <i class="fa fa-star m-2"></i>
+                            <a href="#" class="">My Favorites</a>
+                          </li>
+                          <li>
+                            <i class="fa fa-list m-2"></i>
+                            <a href="#" class="">My Requests</a>
+                          </li>
+                        </ul>
+                        <hr class="text-muted" />
+                        <ul
+                          class="account p-0 text-muted text-start"
+                          style="font-size: 7px"
+                        >
+                          <li>
+                            Sign in to your manufacturer account
+                            <a target="_blank" class="main-color"
+                              >Manufacturer account</a
+                            >
+                          </li>
+                          <li>
+                            Sign in to your distributor account
+                            <a target="_blank" class="main-color"
+                              >Distributor account</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="dropdown pb-1 me-3">
+                      <button
+                        class="dropdown-toggle me-3"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        data-aos="fade-left"
+                      >
+                        EUR - €
+                      </button>
+                      <ul
+                        class="dropdown-menu extra-dropdown"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >English</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >France</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >Spanish</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >German</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item top-dropdown" href="#"
+                            >Russian</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- <div class="m-1" data-aos="fade-left">
+                  <a href="exhibit.html" class="rounded-pill p-1 exhibition-btn">Exhibition With Us</a>
+                </div> -->
+                  </div>
                 </div>
               </div>
-              <div class="dropdown pb-1 me-3">
-                <button
-                  class="dropdown-toggle me-3"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  data-aos="fade-left"
-                >
-                  EUR - €
-                </button>
-                <ul
-                  class="dropdown-menu extra-dropdown"
-                  aria-labelledby="dropdownMenuButton1"
-                >
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">English</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">France</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">Spanish</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">German</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item top-dropdown" href="#">Russian</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- <div class="m-1" data-aos="fade-left">
-                <a href="exhibit.html" class="rounded-pill p-1 exhibition-btn">Exhibition With Us</a>
-              </div> -->
             </div>
           </div>
         </div>
@@ -177,767 +207,780 @@
       <nav class="navbar navbar-expand-lg navbar-dark main-menu px-3">
         <div class="container">
           <!-- Logo Start -->
-        <a class="navbar-brand" href="index.html" data-aos="fade-right">
-          <img
-            src="https://img.directindustry.com/pt/media/ps/images/di/header/header-logo.svg"
-            width="200px"
-            height="74px"
-            alt=""
-          />
-        </a>
-        <!-- Logo End -->
-        <!-- Mobile Menu -->
-        <div class="d-lg-none d-sm-block">
-          <input type="checkbox" id="menyAvPaa" />
-          <label id="burger" for="menyAvPaa">
-            <div></div>
-            <div></div>
-            <div></div>
-          </label>
-          <nav id="meny">
-            <div
-              class=""
-              style="z-index: 9999; padding-top: 1rem; padding-left: 28rem"
-            >
-              <!--Mobile Head -->
-              <p class="text-danger">
-                <a class="navbar-brand" href="index.html">
-                  <img
-                    src="https://img.directindustry.com/pt/media/ps/images/di/header/header-logo.svg"
-                    width="200px"
-                    height="74px"
-                    alt=""
-                  />
-                </a>
-              </p>
-              <!-- Mobile Menu -->
-              <ul class="navbar-nav ms-auto">
-                <li
-                  class="nav-item dropdown"
-                  data-aos="fade-right"
-                  data-aos-duration="500"
-                >
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Product
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-4">
-                          <span class="text-uppercase text-white"
-                            >Category 1</span
-                          >
-                          <ul class="nav flex-column">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- /.col-md-4  -->
-                        <div class="col-md-4">
-                          <ul class="nav flex-column">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- /.col-md-4  -->
-                        <div class="col-md-4">
-                          <a
-                            target="_blank"
-                            href="#resources/a-beginners-guide-to-hubspot-cms/"
-                          >
-                            <img
-                              src="https://i0.wp.com/bootstrapcreative.com/wp-bc/wp-content/uploads/2022/07/beginners-guide-to-hubspot-cms-cover.png?w=200&ssl=1"
-                              alt="Web Design Guides"
-                              class="img-fluid"
-                            />
-                          </a>
-                          <p class="text-white">Get Free Guides</p>
-                        </div>
-                        <!-- /.col-md-4  -->
-                      </div>
-                    </div>
-                    <!--  /.container  -->
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="catalogs.html">Catalog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="RFQ.html">RFQ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="RFQ.html">Contact Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="news-trends.html"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    News & Trends
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-4">
-                          <span class="text-uppercase text-white"
-                            >Category 2</span
-                          >
-                          <ul class="nav flex-column">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- /.col-md-4  -->
-                        <div class="col-md-4">
-                          <ul class="nav flex-column">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- /.col-md-4  -->
-                        <div class="col-md-4">
-                          <a
-                            target="_blank"
-                            href="#shop/jake-portfolio-hubspot-theme/"
-                          >
-                            <img
-                              src="https://i0.wp.com/bootstrapcreative.com/wp-bc/wp-content/uploads/2022/01/jake-portfolio-cover.jpg?w=200&ssl=1"
-                              alt="Portfolio Website Templates"
-                              class="img-fluid"
-                            />
-                          </a>
-                          <p class="text-white">
-                            Create a Portfolio Website Fast
-                          </p>
-                        </div>
-                        <!-- /.col-md-4  -->
-                      </div>
-                    </div>
-                    <!--  /.container  -->
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">E-Magazine</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <!-- Mobile Menu -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                data-aos="fade-right"
-              >
-                Product
-              </a>
+          <a class="navbar-brand mb-2" href="index.html" data-aos="fade-right">
+            <img
+              src="https://i.ibb.co/dD1P3Wt/Demo-Logo.png"
+              height="60px"
+              alt=""
+            />
+          </a>
+          <!-- Logo End -->
+          <!-- Mobile Menu -->
+          <div class="d-lg-none d-sm-block">
+            <input type="checkbox" id="menyAvPaa" />
+            <label id="burger" for="menyAvPaa">
+              <div></div>
+              <div></div>
+              <div></div>
+            </label>
+            <nav id="meny">
               <div
-                class="dropdown-menu menu-dropdown"
-                aria-labelledby="navbarDropdown"
+                class=""
+                style="z-index: 9999; padding-top: 1rem; padding-left: 28rem"
               >
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-6 col-sm-12 my-3">
-                      <div
-                        class="accordion accordion-flush"
-                        id="accordionFlushExample"
-                      >
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingOne">
-                            <button
-                              class="accordion-button p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseOne25"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseOne25"
+                <!--Mobile Head -->
+                <p class="text-danger">
+                  <a class="navbar-brand" href="index.html">
+                    <img
+                      src="https://i.ibb.co/dD1P3Wt/Demo-Logo.png"
+                      width="200px"
+                      height="60px"
+                      alt=""
+                    />
+                  </a>
+                </p>
+                <!-- Mobile Menu -->
+                <ul class="navbar-nav ms-auto">
+                  <li
+                    class="nav-item dropdown"
+                    data-aos="fade-right"
+                    data-aos-duration="500"
+                  >
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Product
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <span class="text-uppercase text-white"
+                              >Category 1</span
                             >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Product Trends</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseOne25"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
+                            <ul class="nav flex-column">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Active</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                            </ul>
                           </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button
-                              class="accordion-button p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseTwo66"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseTwo66"
+                          <!-- /.col-md-4  -->
+                          <div class="col-md-4">
+                            <ul class="nav flex-column">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Active</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- /.col-md-4  -->
+                          <div class="col-md-4">
+                            <a
+                              target="_blank"
+                              href="#resources/a-beginners-guide-to-hubspot-cms/"
                             >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Industry News</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseTwo66"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
+                              <img
+                                src="https://i0.wp.com/bootstrapcreative.com/wp-bc/wp-content/uploads/2022/07/beginners-guide-to-hubspot-cms-cover.png?w=200&ssl=1"
+                                alt="Web Design Guides"
+                                class="img-fluid"
+                              />
+                            </a>
+                            <p class="text-white">Get Free Guides</p>
                           </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button
-                              class="accordion-button p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseThree77"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseThree77"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">People</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseThree77"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
+                          <!-- /.col-md-4  -->
                         </div>
                       </div>
+                      <!--  /.container  -->
                     </div>
-                    <div class="col-lg-6 col-sm-12 my-3">
-                      <div
-                        class="accordion accordion-flush"
-                        id="accordionFlushExample"
-                      >
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingOne1">
-                            <button
-                              class="accordion-button accordion-triger p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseOne189"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseOne189"
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalogs.html">Catalog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="RFQ.html">RFQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="RFQ.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="news-trends.html"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      News & Trends
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <span class="text-uppercase text-white"
+                              >Category 2</span
                             >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Trade Shows & Events</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseOne189"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne1"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
+                            <ul class="nav flex-column">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Active</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                            </ul>
                           </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button
-                              class="accordion-button accordion-triger p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseTwo210"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseTwo210"
+                          <!-- /.col-md-4  -->
+                          <div class="col-md-4">
+                            <ul class="nav flex-column">
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Active</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link item</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- /.col-md-4  -->
+                          <div class="col-md-4">
+                            <a
+                              target="_blank"
+                              href="#shop/jake-portfolio-hubspot-theme/"
                             >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">White Papers</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseTwo210"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
+                              <img
+                                src="https://i0.wp.com/bootstrapcreative.com/wp-bc/wp-content/uploads/2022/01/jake-portfolio-cover.jpg?w=200&ssl=1"
+                                alt="Portfolio Website Templates"
+                                class="img-fluid"
+                              />
+                            </a>
+                            <p class="text-white">
+                              Create a Portfolio Website Fast
+                            </p>
                           </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button
-                              class="accordion-button accordion-triger p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseThree36"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseThree36"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">All Industries</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseThree36"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
+                          <!-- /.col-md-4  -->
                         </div>
                       </div>
+                      <!--  /.container  -->
                     </div>
-                  </div>
-                </div>
-                <!--  /.container  -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">E-Magazine</a>
+                  </li>
+                </ul>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-aos="fade-right" href="catalogs.html"
-                >Catalog</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="news-trends.html"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                data-aos="fade-right"
-              >
-                News & Trends
-              </a>
-              <div
-                class="dropdown-menu menu-dropdown"
-                aria-labelledby="navbarDropdown"
-              >
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-6 col-sm-12 my-3">
-                      <div
-                        class="accordion accordion-flush"
-                        id="accordionFlushExample"
-                      >
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingOne">
-                            <button
-                              class="accordion-button p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseOne"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseOne"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Accordion Item #1</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseOne"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button
-                              class="accordion-button p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseTwo"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseTwo"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Accordion Item #2</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseTwo"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button
-                              class="accordion-button p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseThree"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseThree"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Accordion Item #3</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseThree"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 my-3">
-                      <div
-                        class="accordion accordion-flush"
-                        id="accordionFlushExample"
-                      >
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingOne1">
-                            <button
-                              class="accordion-button accordion-triger p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseOne1"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseOne1"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Accordion Item #1</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseOne1"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne1"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button
-                              class="accordion-button accordion-triger p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseTwo2"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseTwo2"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Accordion Item #2</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseTwo2"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button
-                              class="accordion-button accordion-triger p-2 collapsed"
-                              type="button"
-                              data-bs-toggle="collapse"
-                              data-bs-target="#flush-collapseThree3"
-                              aria-expanded="false"
-                              aria-controls="flush-collapseThree3"
-                            >
-                              <p class="p-0 m-0 accordion-button-area">
-                                <span class="ms-2">Accordion Item #3</span>
-                              </p>
-                            </button>
-                          </h2>
-                          <div
-                            id="flush-collapseThree3"
-                            class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree"
-                            data-bs-parent="#accordionFlushExample"
-                          >
-                            <div class="accordion-body">
-                              <ul class="ps-3">
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                                <li class="mb-2 menu-single-items">
-                                  <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--  /.container  -->
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-aos="fade-right" href="RFQ.html">RFQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="RFQ.html">Contact Us</a>
-            </li>
-          </ul>
-          <!-- Search Box Start -->
-          <div class="ms-auto">
-            <div class="search-2">
-              <input
-                type="text"
-                class="searchTerm"
-                placeholder="What are you looking for?"
-              />
-              <button type="submit" class="searchButton-2">
-                <i class="fa fa-search"></i>
-              </button>
-            </div>
+            </nav>
           </div>
-          <!-- Search Box End -->
-        </div>
+          <!-- Mobile Menu -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-aos="fade-right"
+                >
+                  Product
+                </a>
+                <div
+                  class="dropdown-menu menu-dropdown"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12 my-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button
+                                class="accordion-button p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne25"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne25"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Product Trends</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne25"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingOne"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button
+                                class="accordion-button p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo66"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo66"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Industry News</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo66"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingTwo"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2
+                              class="accordion-header"
+                              id="flush-headingThree"
+                            >
+                              <button
+                                class="accordion-button p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree77"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree77"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">People</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree77"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingThree"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-12 my-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingOne1">
+                              <button
+                                class="accordion-button accordion-triger p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne189"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne189"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Trade Shows & Events</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne189"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingOne1"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button
+                                class="accordion-button accordion-triger p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo210"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo210"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">White Papers</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo210"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingTwo"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2
+                              class="accordion-header"
+                              id="flush-headingThree"
+                            >
+                              <button
+                                class="accordion-button accordion-triger p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree36"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree36"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">All Industries</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree36"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingThree"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  /.container  -->
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-aos="fade-right" href="catalogs.html"
+                  >Catalog</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="news-trends.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-aos="fade-right"
+                >
+                  News & Trends
+                </a>
+                <div
+                  class="dropdown-menu menu-dropdown"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12 my-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button
+                                class="accordion-button p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Accordion Item #1</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingOne"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button
+                                class="accordion-button p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Accordion Item #2</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingTwo"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2
+                              class="accordion-header"
+                              id="flush-headingThree"
+                            >
+                              <button
+                                class="accordion-button p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Accordion Item #3</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingThree"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-sm-12 my-3">
+                        <div
+                          class="accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingOne1">
+                              <button
+                                class="accordion-button accordion-triger p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne1"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne1"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Accordion Item #1</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseOne1"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingOne1"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button
+                                class="accordion-button accordion-triger p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo2"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo2"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Accordion Item #2</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseTwo2"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingTwo"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item mb-2">
+                            <h2
+                              class="accordion-header"
+                              id="flush-headingThree"
+                            >
+                              <button
+                                class="accordion-button accordion-triger p-2 collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree3"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree3"
+                              >
+                                <p class="p-0 m-0 accordion-button-area p-2">
+                                  <span class="ms-2">Accordion Item #3</span>
+                                </p>
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseThree3"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="flush-headingThree"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <ul class="ps-3">
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                  <li class="mb-2 menu-single-items">
+                                    <a href="#">Lorem ipsum dolor sit amet.</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  /.container  -->
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-aos="fade-right" href="RFQ.html"
+                  >RFQ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="RFQ.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- Search Box Start -->
+            <div class="ms-auto">
+              <div class="search-2">
+                <input
+                  type="text"
+                  class="searchTerm"
+                  placeholder="What are you looking for?"
+                />
+                <button type="submit" class="searchButton-2">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+            <!-- Search Box End -->
+          </div>
         </div>
       </nav>
     </header>
@@ -984,24 +1027,27 @@
                     class="accordion accordion-flush"
                     id="accordionFlushExample"
                   >
-                    <div class="accordion-item">
+                    <div class="accordion-item mb-2">
                       <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
                           aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >FLOW, PRESSURE AND LEVEL MEASUREMENT</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              FLOW, PRESSURE AND LEVEL MEASUREMENT
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
@@ -1032,24 +1078,25 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseTwo"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >DETECTION - MEASUREMENT</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">DETECTION - MEASUREMENT</p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
@@ -1076,24 +1123,27 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseThree"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ROBOTICS - AUTOMATION - INDUSTRIAL IT</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              ROBOTICS - AUTOMATION - INDUSTRIAL IT
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
@@ -1120,24 +1170,27 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse4"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapse4"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >AUTOMATION - INDUSTRIAL IT- ROBOTICS</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
@@ -1164,120 +1217,31 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item mb-2">
                       <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne12"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseOne12"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >FLOW, PRESSURE AND LEVEL MEASUREMENT</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
-                        id="flush-collapseOne12"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <ul class="ps-3">
-                            <li class="mb-2 menu-single-items">
-                              <a href="#"
-                                >FLOW, PRESSURE AND LEVEL MEASUREMENT</a
-                              >
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">DETECTION - MEASUREMENT</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#"
-                                >ROBOTICS - AUTOMATION - INDUSTRIAL IT</a
-                              >
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">ELECTRICITY - ELECTRONICS</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button
-                          class="accordion-button p-2 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo13"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo13"
-                        >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >DETECTION - MEASUREMENT</span
-                            >
-                          </p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseTwo13"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <ul class="ps-3">
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button
-                          class="accordion-button p-2 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree14"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseThree14"
-                        >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ROBOTICS - AUTOMATION - INDUSTRIAL IT</span
-                            >
-                          </p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseThree14"
+                        id="flush-collapse4"
                         class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample"
@@ -1300,28 +1264,125 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapse15"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapse15"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >AUTOMATION - INDUSTRIAL IT- ROBOTICS</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
-                        id="flush-collapse15"
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <ul class="ps-3">
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button p-3 collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
+                          </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <ul class="ps-3">
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button p-3 collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
+                          </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
                         class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample"
@@ -1351,116 +1412,31 @@
                     class="accordion accordion-flush"
                     id="accordionFlushExample"
                   >
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne1">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button accordion-triger p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne1"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseOne1"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ELECTRICITY - ELECTRONICS</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
-                        id="flush-collapseOne1"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingOne1"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <ul class="ps-3">
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button
-                          class="accordion-button accordion-triger p-2 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo2"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo2"
-                        >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >INDUSTRIAL MACHINES AND EQUIPMENT</span
-                            >
-                          </p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseTwo2"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <ul class="ps-3">
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button
-                          class="accordion-button accordion-triger p-2 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree3"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseThree3"
-                        >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ENVIRONMENT - HEALTH - SAFETY</span
-                            >
-                          </p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseThree3"
+                        id="flush-collapse4"
                         class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample"
@@ -1483,116 +1459,31 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne1">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button accordion-triger p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne16"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseOne16"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ELECTRICITY - ELECTRONICS</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
-                        id="flush-collapseOne16"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingOne1"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <ul class="ps-3">
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button
-                          class="accordion-button accordion-triger p-2 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo27"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo27"
-                        >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >INDUSTRIAL MACHINES AND EQUIPMENT</span
-                            >
-                          </p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseTwo27"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="accordion-body">
-                          <ul class="ps-3">
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                            <li class="mb-2 menu-single-items">
-                              <a href="#">Lorem ipsum dolor sit amet.</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button
-                          class="accordion-button accordion-triger p-2 collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree38"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseThree38"
-                        >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ENVIRONMENT - HEALTH - SAFETY</span
-                            >
-                          </p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseThree38"
+                        id="flush-collapse4"
                         class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample"
@@ -1615,30 +1506,33 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button accordion-triger p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo29"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseTwo29"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >INDUSTRIAL MACHINES AND EQUIPMENT</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
-                        id="flush-collapseTwo29"
+                        id="flush-collapse4"
                         class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
+                        aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
@@ -1659,28 +1553,219 @@
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
                         <button
-                          class="accordion-button accordion-triger p-2 collapsed"
+                          class="accordion-button p-3 collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThree39"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="flush-collapseThree39"
+                          aria-controls="flush-collapseOne"
                         >
-                          <p class="p-0 m-0 accordion-button-area">
-                            <span class="ms-0"
-                              ><i
-                                class="fa-solid fa-caret-right accordion-menu-icons me-2"
-                              ></i
-                              >ENVIRONMENT - HEALTH - SAFETY</span
-                            >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
                           </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
                         </button>
                       </h2>
                       <div
-                        id="flush-collapseThree39"
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <ul class="ps-3">
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button p-3 collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
+                          </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <ul class="ps-3">
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button p-3 collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
+                          </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <ul class="ps-3">
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button p-3 collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
+                          </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          <ul class="ps-3">
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                            <li class="mb-2 menu-single-items">
+                              <a href="#">Lorem ipsum dolor sit amet.</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-2">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button p-3 collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          <p class="p-0 m-0 accordion-button-area p-2 ps-0">
+                            <span class="ms-0"> </span>
+                          </p>
+                          <div class="d-flex align-items-center w-100">
+                            <img src="./assets/img/Icon.svg" class="" alt="" />
+                            <p class="mb-0 ms-2">
+                              AUTOMATION - INDUSTRIAL IT- ROBOTICS
+                            </p>
+                          </div>
+
+                          <p></p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapse4"
                         class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample"
@@ -1722,67 +1807,25 @@
           <div class="col">
             <a href="product-single.html" class="url-box">
               <div class="card rounded-0 border-0">
-                <div class="card-header bg-white">
-                  <img
-                    src="https://img.directindustry.com/images_di/logo-pp/L5693.gif"
-                    width="20px"
-                    height="20px"
-                    alt="ZEISS Industrial Metrology"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="card-body p-0">
-                  <img
-                    class="img-fluid"
-                    src="https://img.directindustry.com/images_di/photo-mg/5693-18628211.jpg"
-                  />
-                </div>
-                <div class="card-body p-0">
-                  <div class="px-3">
-                    <h5 class="pt-3 ">Lorem ipsum dolor sit</h5>
-                    <div class="mb-3">
-                      <p class="p-0 m-0 pb-2">
-                        <i class="fa-solid fa-tag me-2 tags-text"></i>
-                        <span class="tags-text">For surface inspection</span>
-                      </p>
-                      <p class="p-0 m-0 pb-2">
-                        <i class="fa-solid fa-tag me-2 tags-text"></i>
-                        <span class="tags-text">For surface inspection</span>
-                      </p>
-                      <p class="p-0 m-0 pb-2">
-                        <i class="fa-solid fa-tag me-2 tags-text"></i>
-                        <span class="tags-text">For surface inspection</span>
-                      </p>
-                      <p class="p-0 m-0 pb-2">
-                        <i class="fa-solid fa-tag me-2 tags-text"></i>
-                        <span class="tags-text">For surface inspection</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a href="product-single.html" class="url-box">
-              <div class="card rounded-0 border-0">
-                <div class="card-header bg-white d-flex justify-content-end">
+                <div class="card-header bg-white d-flex justify-content-between">
+                  <span class="product_badge">New</span>
                   <img
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAaCAMAAAC6jTM8AAAAflBMVEX///8AIE0AAEAAG0oAHUsAAEIAADkACUMAADwAGUkAADanrLcADUWTmqqvtcEAAD4AFEdqdYwSLFYtPF9BTmyCi54AEUbv8vWJkqPc3+T4+foKJlJbZ4Dp7PBxe5DQ0tdMWXWco7HEydEbMll5gZO5vscAADBTYHoAACIzRGVhdHN/AAADpklEQVRIicVW26KqOAwlvXK1RaEKCCjg9vD/PzhpC4h7ZrZv++QJktLVJGulBMHLzm1bB3/BQhE//wLsgQCo6vdxRwpgul+HHRRoCrz9bdwi0l0Rycsvw/YKwupAWPTLlL5qXQS1ZuT+7q+SLDtsbGv7Hp8fU75GD/uoDWOfqvt07e6bt3dOZ+fH/T68JdZiukMQXCQ97t1JFHIpSXga/Pv9K87bo5LSvR2OPjoeluWXr7irn4IbbaQoFrQ/6muJ54IootS+lVPqAFsC6rE5z7NiEBmkWxR7oieczU1EU47PdRFiwJgIaHjzSWQSw4ZqKTWAXjgaA3G49VECRiiE+QtBMh/MTTSvzno0+HHR5SOhoCaPC4ySU1di9IRRMnfdTCJI5wUXw7zJs+yKTn17w80l8Ns9GzXEwwqRIaF8wxSIfnFeU+BXd+YBqF9scVNfENxG3lwTqwIXdgsu8MQ3bo5AVDvcM4G0tO+nSF/XzIDprnJWUL0My16A2fhDmJ49rj98UIk1H7Sb9hiIS5L1E7UcYcHFd+WSSGKllzUJjkgdWlM4tPwxseQs3bhXch23DnfxTQbINmNa7nPB/rLtkxNNL3tcAtJppUoOh20JpKvpJcu6YfupWde1y5ctfG/oVi20p6ajw6WnzVdEvq5rf8cIeJHsL4CHAlJeFstTEGfbDwH8EHyzDbcWr4qi3SWIT7hDjPTnCvL+tWJ/9oZJu74Kgbwk9R23fT8V1l/UH3CDvgkNBWZW1SGByHBerc5SULXb+QfcOn7Pl3zO16Y8NSGnYEb3dkWRE7FZilpAAuDM9N/9J25AmX7JH7dwY+cTri1U0kSg7JFREUy/GTAILFdYsy3PdMPbPa5l+3nbjIOZPuBeysk3tj6iaAOrCDZ2+d6MW/kIQa0JV5Iu+l1xrbo3Ujw3/f4/7sjDZbenoxPOkX2nXC7aDctCI7CjQH+MIO7fcO00I0+n4OqGo8sV/SfczjDjCnRmzAobtf79zsVcFE7FNo1A0uulLHA++8PucOujdtO7KwhKfqw/4Q4CouOjbR+o4xiLk3rZvBkK62YTaXAc69TeOMJdC3vcoD0R5u8jpmbf6h95lSughHPMQWC6iTDhv/6pHrFxZa1LomSaEjEuikqEhFdx7mlI0lSF0fqvkIVy3KIz8fT4MsLzuYxlRKnmoV2eleW3PwxrUzkt3B/ul8truA1T+Vac3ka3+YM/IuXrUs+WPaaVyEGbXec5T2xt/gEwj0cQYkI6LAAAAABJRU5ErkJggg=="
                     height="20px"
                     alt="ZEISS Industrial Metrology"
                     loading="lazy"
                   />
+                  <!-- <span class="product_badge2">New</span> -->
                 </div>
                 <div class="card-body p-0">
                   <img
                     class="img-fluid"
-                    src="https://img.directindustry.com/images_di/photo-mg/5693-18628211.jpg"
+                    src="https://img.directindustry.com/images_di/photo-mg/187747-17741971.webp"
                   />
                 </div>
                 <div class="card-body p-0">
                   <div class="px-3">
-                    <h5 class="pt-3 ">Lorem ipsum dolor sit</h5>
+                    <h6 class="pt-3">WATERPROOF ENCLOSURE</h6>
                     <div class="mb-3">
                       <p class="p-0 m-0 pb-2">
                         <i class="fa-solid fa-tag me-2 tags-text"></i>
@@ -1809,24 +1852,25 @@
           <div class="col">
             <a href="product-single.html" class="url-box">
               <div class="card rounded-0 border-0">
-                <div class="card-header bg-white">
+                <div class="card-header bg-white d-flex justify-content-between">
+                  <span class="product_badge">New</span>
                   <img
-                    src="https://img.directindustry.com/images_di/logo-pp/L5693.gif"
-                    width="20px"
+                    src="https://img.directindustry.com/images_di/logo-pp/L7913.gif"
                     height="20px"
                     alt="ZEISS Industrial Metrology"
                     loading="lazy"
                   />
+                  <!-- <span class="product_badge2">New</span> -->
                 </div>
                 <div class="card-body p-0">
                   <img
                     class="img-fluid"
-                    src="https://img.directindustry.com/images_di/photo-mg/5693-18628211.jpg"
+                    src="https://img.directindustry.com/images_di/photo-mg/7913-19071333.webp"
                   />
                 </div>
                 <div class="card-body p-0">
                   <div class="px-3">
-                    <h5 class="pt-3 ">Lorem ipsum dolor sit</h5>
+                    <h6 class="pt-3">WATERPROOF ENCLOSURE</h6>
                     <div class="mb-3">
                       <p class="p-0 m-0 pb-2">
                         <i class="fa-solid fa-tag me-2 tags-text"></i>
@@ -1853,24 +1897,25 @@
           <div class="col">
             <a href="product-single.html" class="url-box">
               <div class="card rounded-0 border-0">
-                <div class="card-header bg-white">
+                <div class="card-header bg-white d-flex justify-content-between">
+                  <span class="product_badge">New</span>
                   <img
-                    src="https://img.directindustry.com/images_di/logo-pp/L5693.gif"
-                    width="20px"
+                    src="https://img.directindustry.com/images_di/logo-pp/L5231.gif"
                     height="20px"
                     alt="ZEISS Industrial Metrology"
                     loading="lazy"
                   />
+                  <!-- <span class="product_badge2">New</span> -->
                 </div>
                 <div class="card-body p-0">
                   <img
                     class="img-fluid"
-                    src="https://img.directindustry.com/images_di/photo-mg/5693-18628211.jpg"
+                    src="https://img.directindustry.com/images_di/photo-mg/13795-19042737.webp"
                   />
                 </div>
                 <div class="card-body p-0">
                   <div class="px-3">
-                    <h5 class="pt-3 ">Lorem ipsum dolor sit</h5>
+                    <h6 class="pt-3">WATERPROOF ENCLOSURE</h6>
                     <div class="mb-3">
                       <p class="p-0 m-0 pb-2">
                         <i class="fa-solid fa-tag me-2 tags-text"></i>
@@ -1897,24 +1942,70 @@
           <div class="col">
             <a href="product-single.html" class="url-box">
               <div class="card rounded-0 border-0">
-                <div class="card-header bg-white">
+                <div class="card-header bg-white d-flex justify-content-between">
+                  <span class="product_badge">New</span>
                   <img
-                    src="https://img.directindustry.com/images_di/logo-pp/L5693.gif"
-                    width="20px"
+                    src="https://img.directindustry.com/images_di/logo-pp/L245599.gif"
                     height="20px"
                     alt="ZEISS Industrial Metrology"
                     loading="lazy"
                   />
+                  <!-- <span class="product_badge2">New</span> -->
                 </div>
                 <div class="card-body p-0">
                   <img
                     class="img-fluid"
-                    src="https://img.directindustry.com/images_di/photo-mg/5693-18628211.jpg"
+                    src="https://img.directindustry.com/images_di/photo-mg/5231-19038320.webp"
                   />
                 </div>
                 <div class="card-body p-0">
                   <div class="px-3">
-                    <h5 class="pt-3 ">Lorem ipsum dolor sit</h5>
+                    <h6 class="pt-3">WATERPROOF ENCLOSURE</h6>
+                    <div class="mb-3">
+                      <p class="p-0 m-0 pb-2">
+                        <i class="fa-solid fa-tag me-2 tags-text"></i>
+                        <span class="tags-text">For surface inspection</span>
+                      </p>
+                      <p class="p-0 m-0 pb-2">
+                        <i class="fa-solid fa-tag me-2 tags-text"></i>
+                        <span class="tags-text">For surface inspection</span>
+                      </p>
+                      <p class="p-0 m-0 pb-2">
+                        <i class="fa-solid fa-tag me-2 tags-text"></i>
+                        <span class="tags-text">For surface inspection</span>
+                      </p>
+                      <p class="p-0 m-0 pb-2">
+                        <i class="fa-solid fa-tag me-2 tags-text"></i>
+                        <span class="tags-text">For surface inspection</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="product-single.html" class="url-box">
+              <div class="card rounded-0 border-0">
+                <div class="card-header bg-white d-flex justify-content-between">
+                  <span class="product_badge">New</span>
+                  <img
+                    src="https://img.directindustry.com/images_di/logo-pp/L13795.gif"
+                    height="20px"
+                    alt="ZEISS Industrial Metrology"
+                    loading="lazy"
+                  />
+                  <!-- <span class="product_badge2">New</span> -->
+                </div>
+                <div class="card-body p-0">
+                  <img
+                    class="img-fluid"
+                    src="https://img.directindustry.com/images_di/photo-mg/4594464-19059968.webp"
+                  />
+                </div>
+                <div class="card-body p-0">
+                  <div class="px-3">
+                    <h6 class="pt-3">WATERPROOF ENCLOSURE</h6>
                     <div class="mb-3">
                       <p class="p-0 m-0 pb-2">
                         <i class="fa-solid fa-tag me-2 tags-text"></i>
@@ -1945,13 +2036,7 @@
             style="
               border-top-right-radius: 40px;
               border-bottom-left-radius: 40px;
-              background-image: linear-gradient(
-                to right,
-                #159bed,
-                #0080d9,
-                #0065c4,
-                #004aad
-              );
+              background: linear-gradient(90deg, #0069bf 0%, #38b6ff 100%);
             "
           >
             <div class="card-header border-0 bg-transparent">
@@ -1980,12 +2065,13 @@
                           class="d-flex align-items-center card-body py-0 pt-2"
                         >
                           <div class="icon-box">
-                            <img
+                            <!-- <img
                               width="70px"
                               height="55px"
                               src="https://www.riverbed.com/riverbed-wp-content/uploads/2022/12/brainstorm_color.png"
                               alt=""
-                            />
+                            /> -->
+                            <i class="fa-brands fa-draft2digital pe-2"></i>
                           </div>
                           <div class="text-box">
                             <p class="p-0 m-0 ps-2">
@@ -1993,8 +2079,10 @@
                             </p>
                           </div>
                         </div>
-                        <a href="" class="text-end pb-2 main-color mt-0 pt-0 pe-1"
-                          ><i class="fa-solid fa-plus text-white"></i
+                        <a
+                          href=""
+                          class="text-end pb-2 main-color mt-0 pt-0 pe-1"
+                          ><i class="fa-solid fa-plus"></i
                         ></a>
                       </div>
                     </a>
@@ -2010,12 +2098,13 @@
                           class="d-flex align-items-center card-body py-0 pt-2"
                         >
                           <div class="icon-box">
-                            <img
+                            <!-- <img
                               width="70px"
                               height="55px"
                               src="https://www.riverbed.com/riverbed-wp-content/uploads/2022/12/brainstorm_color.png"
                               alt=""
-                            />
+                            /> -->
+                            <i class="fa-regular fa-chess-queen pe-2"></i>
                           </div>
                           <div class="text-box">
                             <p class="p-0 m-0 ps-2">
@@ -2023,8 +2112,10 @@
                             </p>
                           </div>
                         </div>
-                        <a href="" class="text-end pb-2 main-color mt-0 pt-0 pe-1"
-                          ><i class="fa-solid fa-plus text-white"></i
+                        <a
+                          href=""
+                          class="text-end pb-2 main-color mt-0 pt-0 pe-1"
+                          ><i class="fa-solid fa-plus"></i
                         ></a>
                       </div>
                     </a>
@@ -2040,12 +2131,13 @@
                           class="d-flex align-items-center card-body py-0 pt-2"
                         >
                           <div class="icon-box">
-                            <img
+                            <!-- <img
                               width="70px"
                               height="55px"
                               src="https://www.riverbed.com/riverbed-wp-content/uploads/2022/12/brainstorm_color.png"
                               alt=""
-                            />
+                            /> -->
+                            <i class="fa-brands fa-figma pe-2"></i>
                           </div>
                           <div class="text-box">
                             <p class="p-0 m-0 ps-2">
@@ -2053,8 +2145,10 @@
                             </p>
                           </div>
                         </div>
-                        <a href="" class="text-end pb-2 main-color mt-0 pt-0 pe-1"
-                          ><i class="fa-solid fa-plus text-white"></i
+                        <a
+                          href=""
+                          class="text-end pb-2 main-color mt-0 pt-0 pe-1"
+                          ><i class="fa-solid fa-plus"></i
                         ></a>
                       </div>
                     </a>
@@ -2070,12 +2164,13 @@
                           class="d-flex align-items-center card-body py-0 pt-2"
                         >
                           <div class="icon-box">
-                            <img
+                            <!-- <img
                               width="70px"
                               height="55px"
                               src="https://www.riverbed.com/riverbed-wp-content/uploads/2022/12/brainstorm_color.png"
                               alt=""
-                            />
+                            /> -->
+                            <i class="fa-regular fa-gem pe-2"></i>
                           </div>
                           <div class="text-box">
                             <p class="p-0 m-0 ps-2">
@@ -2083,8 +2178,10 @@
                             </p>
                           </div>
                         </div>
-                        <a href="" class="text-end pb-2 main-color mt-0 pt-0 pe-1"
-                          ><i class="fa-solid fa-plus text-white"></i
+                        <a
+                          href=""
+                          class="text-end pb-2 main-color mt-0 pt-0 pe-1"
+                          ><i class="fa-solid fa-plus"></i
                         ></a>
                       </div>
                     </a>
@@ -2264,12 +2361,14 @@
       </div>
       <!-- Exhibitions -->
       <div class="container">
-        <div class="mt-5 mb-3  mx-2">
+        <div class="mt-5 mb-3 mx-2">
           <a href="exhibit.html" class="mt-3">
-            <div class="row gx-5 bg-white develop-business-2">
+            <div
+              class="row gx-5 bg-white develop-business-2 align-items-center"
+            >
               <div class="col p-3">
                 <div class="main-color d-flex">
-                  <h5 class="">Develop your business!</h5>
+                  <h6 class="mb-0">Develop your business!</h6>
                 </div>
               </div>
               <div class="col p-3">
@@ -2298,7 +2397,7 @@
               </div>
               <div class="col p-4 special-exhibit-2 p-0 m-0">
                 <div class="text-center">
-                  <h4 class="text-white ">Exhibit with us</h4>
+                  <h4 class="text-white">Exhibit with us</h4>
                   <p class="ms-2 p-0 m-0 text-white" style="font-size: 12px">
                     Sign up in 2 minutes
                   </p>
@@ -2334,10 +2433,15 @@
                 />
               </div>
               <div class="ms-5">
-                <h6 class="">CHOOSING THE RIGHT PRESSURE GAUGE</h6>
+                <h6 class="main-color">CHOOSING THE RIGHT PRESSURE GAUGE</h6>
                 <p
                   class="p-0 m-0 my-3"
-                  style="font-size: 14px; word-spacing: 5px; line-height: 1.2"
+                  style="
+                    font-size: 14px;
+                    word-spacing: 5px;
+                    line-height: 1.2;
+                    text-align: justify;
+                  "
                 >
                   A pressure gauge is an instrument for measuring pressure. The
                   term pressure indicator may also be used. In industry,
@@ -2345,7 +2449,7 @@
                 </p>
                 <!-- <a href="guide.html" class="btn signin mt-2 rounded-0">Learn More</a> -->
                 <a href="guide.html" class="btn common-btn-2 mt-2 rounded-0"
-                  >Learn More</a
+                  > <span class="text-gradient">Learn More</span></a
                 >
               </div>
             </div>
@@ -2361,10 +2465,15 @@
                 />
               </div>
               <div class="ms-5">
-                <h6 class="">CHOOSING THE RIGHT LEVEL SWITCH</h6>
+                <h6 class="main-color">CHOOSING THE RIGHT LEVEL SWITCH</h6>
                 <p
                   class="p-0 m-0 my-3"
-                  style="font-size: 14px; word-spacing: 5px; line-height: 1.2"
+                  style="
+                    font-size: 14px;
+                    word-spacing: 5px;
+                    line-height: 1.2;
+                    text-align: justify;
+                  "
                 >
                   A pressure gauge is an instrument for measuring pressure. The
                   term pressure indicator may also be used. In industry,
@@ -2388,10 +2497,15 @@
                 />
               </div>
               <div class="ms-5">
-                <h6 class="">CHOOSING THE RIGHT INDUSTRIAL MINCER</h6>
+                <h6 class="main-color">CHOOSING THE RIGHT INDUSTRIAL MINCER</h6>
                 <p
                   class="p-0 m-0 my-3"
-                  style="font-size: 14px; word-spacing: 5px; line-height: 1.2"
+                  style="
+                    font-size: 14px;
+                    word-spacing: 5px;
+                    line-height: 1.2;
+                    text-align: justify;
+                  "
                 >
                   A pressure gauge is an instrument for measuring pressure. The
                   term pressure indicator may also be used. In industry,
@@ -2433,16 +2547,21 @@
             <div class="row align-items-center">
               <div class="col-lg-6">
                 <div class="holder-main-text">
-                  <h6 style="width: 30%; line-height: 25px;">WHY YOU NEED US?</h6>
-                  <h2 class="pt-3 mb-0 pb-2 w-75 ">
+                  <h6 style="width: 25%; line-height: 25px">
+                    WHY YOU NEED US?
+                  </h6>
+                  <h2 class="pt-3 mb-0 pb-2 w-75 text-capitalize">
                     Maximize Visibility and Performance
                   </h2>
-                  <p class="pt-0 mt-0 w-75" style="text-align: justify">
+                  <p class="pt-2 mt-0 w-75" style="text-align: justify">
                     Overcome the challenges of insufficient visibility,
                     unpredictable network and application performance, and
                     expanded cyber security risks—all while improving your
                     ability to be agile and resilient.
                   </p>
+                  <a href="guide.html" class="btn common-btn-3 mt-2 rounded-0 w-25"
+                  >Learn More</a
+                >
                 </div>
               </div>
               <div class="col-lg-6">
@@ -2454,7 +2573,7 @@
                         style="
                           border-top-right-radius: 40px;
                           border-bottom-left-radius: 40px;
-                          border: 1px solid #fff;
+                          border: 0px solid #fff;
                         "
                       >
                         <div class="card-body border-0">
@@ -2508,7 +2627,7 @@
                                 >
                                   <p class="p-0 m-0 pb-2">Learn More</p>
                                   <p class="p-0 m-0 pb-2">
-                                    <i class="fa-solid fa-plus text-white"></i>
+                                    <i class="fa-solid fa-plus"></i>
                                   </p>
                                 </a>
                               </div>
@@ -2525,7 +2644,7 @@
                         style="
                           border-top-right-radius: 40px;
                           border-bottom-left-radius: 40px;
-                          border: 1px solid #fff;
+                          border: 0px solid #fff;
                         "
                       >
                         <div class="card-body border-0">
@@ -2579,7 +2698,7 @@
                                 >
                                   <p class="p-0 m-0 pb-2">Learn More</p>
                                   <p class="p-0 m-0 pb-2">
-                                    <i class="fa-solid fa-plus text-white"></i>
+                                    <i class="fa-solid fa-plus"></i>
                                   </p>
                                 </a>
                               </div>
@@ -2598,7 +2717,7 @@
                         style="
                           border-top-right-radius: 40px;
                           border-bottom-left-radius: 40px;
-                          border: 1px solid #fff;
+                          border: 0px solid #fff;
                         "
                       >
                         <div class="card-body border-0">
@@ -2652,7 +2771,7 @@
                                 >
                                   <p class="p-0 m-0 pb-2">Learn More</p>
                                   <p class="p-0 m-0 pb-2">
-                                    <i class="fa-solid fa-plus text-white"></i>
+                                    <i class="fa-solid fa-plus"></i>
                                   </p>
                                 </a>
                               </div>
@@ -2669,7 +2788,7 @@
                         style="
                           border-top-right-radius: 40px;
                           border-bottom-left-radius: 40px;
-                          border: 1px solid #fff;
+                          border: 0px solid #fff;
                         "
                       >
                         <div class="card-body border-0">
@@ -2723,7 +2842,7 @@
                                 >
                                   <p class="p-0 m-0 pb-2">Learn More</p>
                                   <p class="p-0 m-0 pb-2">
-                                    <i class="fa-solid fa-plus text-white"></i>
+                                    <i class="fa-solid fa-plus"></i>
                                   </p>
                                 </a>
                               </div>
@@ -2758,13 +2877,14 @@
             background-repeat: no-repeat;
             background-size: cover;
             padding: 3rem 0rem 3rem;
-          ">
+          "
+        >
           <div class="col-lg-12 p-5 mb-3">
             <div class="row align-items-center">
               <div class="col-lg-6">
                 <div class="holder-main-text">
-                  <h6 style="width: 28%;line-height: 25px;">WHY YOU NEED US</h6>
-                  <h2 class="pt-3 mb-0 pb-2 w-75 ">
+                  <h6 style="width: 25%; line-height: 25px">WHY YOU NEED US</h6>
+                  <h2 class="pt-3 mb-0 pb-2 w-75">
                     Modernize IT for Digital and Cloud Success
                   </h2>
                   <p class="pt-0 mt-0 w-75" style="text-align: justify">
